@@ -1,0 +1,13 @@
+version: "1.0"
+linter: jetbrains/qodana-dotnet:2023.2
+ide: QDNET
+profile:
+  name: qodana.starter
+exclude:
+  - name: All
+    paths:
+      - src/bench
+      - src/bench2.4
+      - src/benchCurrent
+      - src/profiler
+      - src/samples

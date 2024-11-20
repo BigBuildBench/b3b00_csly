@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "dotnet",
+            "name": "example",
+            "projectPath": "$PROJECT_DIR$/src/samples/ParserExample/ParserExample.csproj",
+            "args": [],
+        },
+    ]
+}
